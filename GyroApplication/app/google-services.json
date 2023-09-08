@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962744668958",
+    "project_id": "gyroapplication",
+    "storage_bucket": "gyroapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962744668958:android:861761e7810b1166992f0f",
+        "android_client_info": {
+          "package_name": "com.example.gyroapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962744668958-7jjisdnrna2ddle930jnqnen612d4oaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdtyvfTE_ZEqiSnrPfzvMY-Ycm7Tzkck0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962744668958-7jjisdnrna2ddle930jnqnen612d4oaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
