@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gyro Recv"
+        android:text="거북목 탐지 어플리케이션"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:textSize="30dp"/>
@@ -57,12 +57,12 @@
             android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"/>
+            android:text="로그인"/>
         <Button
             android:id="@+id/joinButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Join"/>
+            android:text="등록"/>
 
     </LinearLayout>
 
