@@ -90,9 +90,23 @@ class ConnectedThread extends Thread {
                             int agv = Integer.parseInt(splitedResult[1]);
                             int status = Integer.parseInt(splitedResult[2]);
 
-                            String Text = "Angle : " + angle + "\n" +
-                                          "Avg : " + agv + "\n" +
-                                          "Status : " + status;
+                            String stat;
+                            switch(status){
+
+                                case 1:
+                                    stat="경고";
+                                    break;
+                                case 2:
+                                    stat="위험";
+                                    break;
+                                default:
+                                    stat="정상";
+                                    break;
+                            }
+
+                            String Text = "탐지 각도 : " + angle + "\n" +
+                                          "평균 탐지 각도 : " + agv + "\n" +
+                                          "상태 : " + stat;
                             contextText.setText(Text);
                             if(status == 1)
                             {
